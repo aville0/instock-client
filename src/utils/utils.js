@@ -1,4 +1,4 @@
 export const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://instock-server-repo.herokuapp.com"
+    ? process.env.API_URL
     : "http://localhost:8080";
